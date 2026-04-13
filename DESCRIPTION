@@ -1,7 +1,7 @@
 Package: jprojectsetup
-Title: Project Bootstrap for Jens Halford
+Title: Project Bootstrap
 Version: 0.1.0
-Authors@R: person("Jens", "Halford", role = c("aut", "cre"),
+Authors@R: person("Namn", "Namnsson", role = c("aut", "cre"),
                    email = "your@email.com")
 Description: Creates a standardised folder structure and starter files for
     new R analysis projects.
