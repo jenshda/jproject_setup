@@ -18,7 +18,7 @@ pak::pak("jenshda/jproject_setup")
 ```r
 jprojectsetup::bootstrap(
   author_name = "Namn Namnsson",  # Namn i skripthuvuden
-  overwrite   = FALSE            # TRUE skriver över befintliga filer
+  overwrite   = FALSE             # TRUE skriver över befintliga filer
 )
 ```
 
