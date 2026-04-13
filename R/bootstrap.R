@@ -13,7 +13,7 @@
 #'
 #' @examples
 #' \dontrun{
-#' jproject_setup::bootstrap()
+#' jprojectsetup::bootstrap()
 #' }
 bootstrap <- function(author_name = "Jens Halford", overwrite = FALSE) {
 
