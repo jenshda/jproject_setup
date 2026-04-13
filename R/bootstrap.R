@@ -4,7 +4,7 @@
 #' project. Run once from the root of an open RStudio Project.
 #'
 #' @param author_name Character. Name inserted into generated script headers.
-#'   Defaults to "Jens Halford".
+#' 
 #' @param overwrite Logical. If TRUE, existing starter files are overwritten.
 #'   Defaults to FALSE.
 #'
@@ -15,7 +15,10 @@
 #' \dontrun{
 #' jprojectsetup::bootstrap()
 #' }
-bootstrap <- function(author_name = "Jens Halford", overwrite = FALSE) {
+bootstrap <- function(
+  author_name = readline("Author name: "),
+  overwrite   = FALSE
+) {
 
   root         <- getwd()
   created_date <- as.character(Sys.Date())
