@@ -1,0 +1,10 @@
+---
+title: "{{project_name}}"
+format:
+  html: default
+editor: visual
+---
+
+# Report
+
+Write the report here.
