@@ -62,7 +62,7 @@ Platshållare som byts ut automatiskt:
 
 ```r
 bootstrap(
-  author_name = "Jens Halford",  # Namn i skripthuvuden
+  author_name = "Namn Namnsson",  # Namn i skripthuvuden
   overwrite   = FALSE            # TRUE skriver över befintliga filer
 )
 ```
