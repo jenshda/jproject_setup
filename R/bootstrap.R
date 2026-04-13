@@ -90,7 +90,7 @@ bootstrap <- function(author_name = "Jens Halford", overwrite = FALSE) {
   write_template <- function(template_name, dest_path, overwrite = FALSE) {
     tmpl_path <- system.file(
       "templates", template_name,
-      package = "jproject_setup",
+      package = "jprojectsetup",
       mustWork = TRUE
     )
     lines <- readLines(tmpl_path, encoding = "UTF-8", warn = FALSE)
