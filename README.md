@@ -5,8 +5,8 @@ Skapar standardmappstruktur och startfiler för nya R-analysprojekt.
 ## Installation
 
 ```r
-# install.packages("devtools")
-devtools::install_github("jenshalford/jproject_setup")
+# install.packages("pak")
+pak::pak("jenshda/jproject_setup")
 ```
 
 ## Användning
