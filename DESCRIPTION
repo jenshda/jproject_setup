@@ -1,4 +1,4 @@
-Package: jproject_setup
+Package: jprojectsetup
 Title: Project Bootstrap for Jens Halford
 Version: 0.1.0
 Authors@R: person("Jens", "Halford", role = c("aut", "cre"),
